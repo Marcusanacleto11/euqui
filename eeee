@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrição Natural - [Nome do Nutricionista]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>[Nome do Nutricionista]</h1>
+        <p>Consultoria em Nutrição Natural</p>
+    </header>
+
+    <section class="about">
+        <h2>Sobre Nós</h2>
+        <p>Somos especializados em nutrição natural e ajudamos nossos clientes a alcançarem uma vida mais saudável através da alimentação.</p>
+    </section>
+
+    <section class="services">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Plano de Alimentação Personalizado</li>
+            <li>Acompanhamento Nutricional</li>
+            <li>Reeducação Alimentar</li>
+            <li>Dicas de Nutrição Natural</li>
+        </ul>
+    </section>
+
+    <section class="benefits">
+        <h2>Vantagens e Benefícios</h2>
+        <ul>
+            <li>Melhora na Saúde Geral</li>
+            <li>Perda de Peso Sustentável</li>
+            <li>Aumento de Energia</li>
+            <li>Alimentação Mais Balanceada</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Entre em Contato</h2>
+        <p>Estamos aqui para ajudar você a alcançar seus objetivos de saúde. Preencha o formulário abaixo e entraremos em contato em breve.</p>
+        <form action="processar-formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; [Ano] [Nome do Nutricionista]. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+      
